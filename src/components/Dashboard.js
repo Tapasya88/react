@@ -5,6 +5,7 @@ import Refsdemo from './intercomp/Refsdemo';
 import ContextApp from './contextapi/ContextApp';
 import CompLifeCycle from './lifecycle/Complifecycle';
 import WeatherComponent from './lifecycle/WeatherComponent';
+import Myhoc from './hoc/Myhoc';
 export default class Dashboard extends React.Component{
     constructor(props){
         super(props)
@@ -22,6 +23,7 @@ export default class Dashboard extends React.Component{
             <ContextApp/>
             <CompLifeCycle/>
             <WeatherComponent/>
+            <Myhoc/>
             </div>
         )
     }
